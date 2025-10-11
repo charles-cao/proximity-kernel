@@ -19,8 +19,9 @@ pip install numpy scipy scikit-learn
 
 ```python
 from pk import PK
+pk = PK(n_bins_per_dim=4)     # n_bins_per_dim is the only parameter
 
-New_feature = PK.fit_transform(X)      # X is missing data
+New_feature = pk.fit_transform(X)      # X is missing data
 ```
 
 ## Performance
