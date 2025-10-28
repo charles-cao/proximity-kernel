@@ -24,6 +24,8 @@ pk = PK(n_bins_per_dim=4)     # n_bins_per_dim is the only parameter
 New_feature = pk.fit_transform(X)      # X is missing data
 ```
 
+The reproduce result of Mammo dataset is shown in demo.ipynb.
+
 ## Performance
 ![Performance](table.png "Performance")
 
